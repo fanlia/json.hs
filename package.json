@@ -1,0 +1,20 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanlia/json.hs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanlia/json.hs/issues"
+  },
+  "homepage": "https://github.com/fanlia/json.hs#readme"
+}

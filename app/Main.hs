@@ -42,7 +42,7 @@ charP x = Parser f
         f [] = Nothing
 
 stringP :: String -> Parser String
-stringP = sequenceA . (map charP)
+stringP =  traverse charP
 
 spanP :: (Char -> Bool) -> Parser String
 spanP f = Parser $ \input ->
